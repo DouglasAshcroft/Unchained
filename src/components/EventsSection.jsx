@@ -1,27 +1,65 @@
 // src/components/EventsSection.jsx
-import { useContext } from "react";
+import { useEffect, useState } from "react";
 import { slugify } from "../utils/slugify";
-import { Link } from "react-router-dom";
 import { openGoogleMaps } from "../utils/openGoogleMaps";
 import "../styles/components/eventsSection.css";
-import { APIContext } from "./ApiFetch";
 
+// Not needed mocking data in server
+// const EventsSection = () => {
+//   const apiKey =
+//     "89851f15ae5cae03c281a8eb7e5dfc64485b8aca245d1c61d8ce7373f5634803";
+//   const params = {
+//     engine: "google_events",
+//     q: "Washington DC events",
+//     hl: "en",
+//     gl: "us",
+//     tbs: "lf:1,lf_ui:2",
+//     num: 25,
+//     api_key: apiKey,
+//   };
+
+// const url = `https://serpapi.com/search.json?${new URLSearchParams(params)}`;
+// fetch(url)
+//   .then((res) => res.json())
+//   .then((data) => {
+//     const events = data.event_results;
+//     console.log(data.events_results);
+//   });
+
+// useEffect(() => {
+//   fetch();
+// }, []);
 const EventsSection = () => {
+  const [events, setEvents] = useState([]);
+  const [error, setError] = useState(null);
 
-  const { events } = useContext(APIContext);
+  useEffect(() => {
+    const fetchEvents = async () => {
+      try {
+        const res = await fetch(`http://localhost:3001/googleEvents`);
+        const data = await res.json();
+
+        if (data.events_results) {
+          setEvents(data.events_results.slice(0, 10));
+          // setEvents(events.slice(0, 10)); // limit to 10
+        } else {
+          setEvents([]);
+        }
+      } catch (err) {
+        console.error("Error fetching Google events:", err);
+        setError("Could not load events from Google.");
+      }
+    };
+    fetchEvents();
+  }, []);
 
   return (
     <section>
-      <div>
-        <nav>
-          <Link to='/Home'>
-            <h3>Home</h3>
-          </Link>
-        </nav>
-      </div>
-
       <h2> Upcoming Events</h2>
 
+      {error && <p>{error}</p>}
+
+      {!error && events.length === 0 && <p>No events available right now.</p>}
 
       <div className="event-container">
         {events.map((event, index) => (
@@ -81,3 +119,33 @@ const EventsSection = () => {
   );
 };
 export default EventsSection;
+
+// single call (async/await)
+// const json = await getJson({ engine: "google", api_key: API_KEY, q: "coffee" });
+
+// const EventsSection = () => {
+//   const [events, setEvents] = useState([]);
+//   const [error, setError] = useState(null);
+
+//   const fetchEvents = async () => {
+//     try {
+//       const res = await fetch(
+//         `url`
+//       );
+//       const data = await res.json();
+
+//       if (data._embedded?.events) {
+//         setEvents(data._embedded.events);
+//       } else {
+//         setEvents([]);
+//       }
+//     } catch (err) {
+//       console.error("Error fetching events:", err);
+//       setError("Could not load events");
+//     }
+//   };
+
+//   useEffect(() => {
+//     fetchEvents();
+//   }, []);
+// }
