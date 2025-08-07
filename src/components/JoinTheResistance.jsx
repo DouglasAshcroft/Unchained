@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import { storeEmail } from "../utils/emailStorage";
 import "../styles/components/joinTheResistance.css";
 import "../styles/components/waitlistform.css";
+import HomePage from "./HomePage";
 
 const JoinTheResistance = () => {
   const [email, setEmail] = useState("");
@@ -21,6 +22,13 @@ const JoinTheResistance = () => {
     }
   };
 
+  const [showCTAOnly, setShowCTAOnly] = useState(true); // toggle this for dev/test/demo
+
+  if (showCTAOnly === false) {
+    return <HomePage />;
+  }
+
+
   return (
     <section className="join-the-resistance">
       <header>
@@ -29,6 +37,8 @@ const JoinTheResistance = () => {
       </header>
 
       <div className="audience-cards">
+      {/* need to add button and useNav */}
+      <Link to="/Home" onClick={() => setShowCTAOnly(false)}>
         <div className="card">
           <h2>🎟️ Fans</h2>
           <p>
@@ -37,6 +47,8 @@ const JoinTheResistance = () => {
             to overthrow the 🎟️ "Master."
           </p>
         </div>
+        </Link>
+
         <div className="card">
           <h2>🎤 Artists</h2>
           <p>
@@ -46,6 +58,8 @@ const JoinTheResistance = () => {
             @Base from excessive fees.
           </p>
         </div>
+
+
         <div className="card">
           <h2>🏟️ Venues</h2>
           <p>
@@ -55,6 +69,7 @@ const JoinTheResistance = () => {
             on USDC stablecoin transactions.
           </p>
         </div>
+
       </div>
 
       <form onSubmit={handleSubmit}>

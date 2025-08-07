@@ -9,11 +9,6 @@ import Home from "./pages/Home";
 import VenueDetail from "./pages/VenueDetail";
 
 function App() {
-  const [showCTAOnly] = useState(false); // toggle this for dev/test/demo
-
-  if (showCTAOnly) {
-    return <JoinTheResistance />;
-  }
 
   return (
     <>
