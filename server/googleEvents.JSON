@@ -1,0 +1,526 @@
+{
+  "search_metadata": {
+    "id": "6893a4aa3882c56a9c7f2c62",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/94b90d7e1c03a69b/6893a4aa3882c56a9c7f2c62.json",
+    "created_at": "2025-08-06 18:53:30 UTC",
+    "processed_at": "2025-08-06 18:53:30 UTC",
+    "google_events_url": "https://www.google.com/search?q=Washington+DC+events&ibp=htl;events&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/94b90d7e1c03a69b/6893a4aa3882c56a9c7f2c62.html",
+    "total_time_taken": 1.28
+  },
+  "search_parameters": {
+    "q": "Washington DC events",
+    "engine": "google_events",
+    "hl": "en",
+    "gl": "us"
+  },
+  "search_information": {
+    "events_results_state": "Results for exact spelling"
+  },
+  "events_results": [
+    {
+      "title": "Harry Potter and the Cursed Child",
+      "date": {
+        "start_date": "Aug 7",
+        "when": "Thu, Aug 7, 7:00 – 8:30 PM EDT"
+      },
+      "address": [
+        "National Theatre DC, 1321 Pennsylvania Ave NW",
+        "Washington, DC"
+      ],
+      "link": "https://allevents.in/washington/harry-potter-and-the-cursed-child-touring/200028062251842",
+      "event_location_map": {
+        "image": "https://www.google.com/maps/vt/data=71LsI3KB_SzjHnMZhYe-bnT549pbj46nKpj7i_bnHpYlM35N2QbTvLZ25YAI6hkNnFQESG8d8Pi9AJRhh2M3-VVG-XqTZAR06byfU1HKEqsqVU1boF4",
+        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89b7b797763671db:0xc1dd8ed20800eb8b?sa=X&ved=2ahUKEwjw5N7a7faOAxUWbvUHHcp6Ik0Q9eIBegQIAxAA&hl=en&gl=us",
+        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89b7b797763671db%3A0xc1dd8ed20800eb8b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Washington+DC+events&type=place"
+      },
+      "description": "Sale Dates and Times: Public Onsale : Fri, 7 Mar 2025 at 12:00 PM Wizarding World Presale : Mon, 3 Mar 2025 at 12:00 PM Donor Presale : Mon, 3 Mar 2025 at 12:00 PM The National App Presale : Mon...",
+      "ticket_info": [
+        {
+          "source": "Axs.com",
+          "link": "https://www.axs.com/uk/events/789487/harry-potter-and-the-cursed-child-tickets",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Tix4cause.com",
+          "link": "https://www.tix4cause.com/event/harry-potter-and-the-cursed-child/7021075",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Premiumseatsusa.com",
+          "link": "https://www.premiumseatsusa.com/theatre/musical-play/harry-potter-and-the-cursed-child/7021076",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Seatgeek.com",
+          "link": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2025-08-07-7-pm/17260395?gclsrc=%7BGOOGLE-ADS-CLICK-SOURCE%7D&refob=mta&ref_price=78.00",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Stubhub.com",
+          "link": "https://www.stubhub.com/_C-36402?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-2326%7Cev-156560416%7Ccy-79613&ps_ev=156560416",
+          "link_type": "tickets"
+        }
+      ],
+      "venue": {
+        "name": "National Theatre DC",
+        "rating": 4.5,
+        "reviews": 1861,
+        "link": "https://www.google.com/search?sca_esv=679a45043caa68e1&gl=us&hl=en&q=National+Theatre+DC&ludocid=13969478651901701003&ibp=gwp%3B0,7"
+      },
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEYwGbpEyAzC257Tozd9uYGFYE5Zy5mahQe09nYOs&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0WqRxqvqRKG24N_aX6HPRKd34e6Oe5oAbqIzlxTYn1g&s=10"
+    },
+    {
+      "title": "Getter",
+      "date": {
+        "start_date": "Aug 9",
+        "when": "Sat, Aug 9, 7:00 – 11:30 PM EDT"
+      },
+      "address": ["Echostage, 2135 Queens Chapel Rd NE", "Washington, DC"],
+      "link": "https://www.livenation.com/artist/K8vZ9178b47/getter-events",
+      "event_location_map": {
+        "image": "https://www.google.com/maps/vt/data=-vrgBOAOsCgeDQmbBmofJODaGd6NOM6J52eqOP3xLU2rLACg1uuA3HDtZVfTeOuSsK5uJmCPnwzgDZwmfS1Ik3fJG9YoD1zJQU7gMwSw4ly7u047VSA",
+        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89b7c7877e5ce9d9:0x2ab96c0cec945ec3?sa=X&ved=2ahUKEwjw5N7a7faOAxUWbvUHHcp6Ik0Q9eIBegQICxAA&hl=en&gl=us",
+        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89b7c7877e5ce9d9%3A0x2ab96c0cec945ec3&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Washington+DC+events&type=place"
+      },
+      "description": "Getter SAT, Aug 9, 2025 @ 10:00 PM Echostage, Washington, DC",
+      "ticket_info": [
+        {
+          "source": "Axs.com",
+          "link": "https://www.axs.com/nz/events/1026113/getter-18-event-tickets",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Tixel.com",
+          "link": "https://tixel.com/us/music-tickets/2025/08/09/getter",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Vividseats.com",
+          "link": "https://www.vividseats.com/getter-tickets-washington-dc-echostage-8-9-2025--concerts-rock/production/5816253",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Bandsintown.com",
+          "link": "https://www.bandsintown.com/e/107008133?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Seatgeek.com",
+          "link": "https://seatgeek.com/getter-tickets/washington-district-of-columbia-echostage-2025-08-09-10-pm/concert/17570115?gclsrc=%7BGOOGLE-ADS-CLICK-SOURCE%7D&refob=mta&ref_price=37.00",
+          "link_type": "tickets"
+        }
+      ],
+      "venue": {
+        "name": "Echostage",
+        "rating": 4.3,
+        "reviews": 3106,
+        "link": "https://www.google.com/search?sca_esv=679a45043caa68e1&gl=us&hl=en&q=Echostage&ludocid=3078610623048998595&ibp=gwp%3B0,7"
+      },
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrWN2yA1larOQCzW1qDH4nFOHi0FC-WY1yzT6n-1qJrehxAEVRfjb2uSs&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIkDtF9eBTK2SN2o-y1KyW3PuVG7SDu1_gmKC92zANBQ&s"
+    },
+    {
+      "title": "The Church",
+      "date": {
+        "start_date": "Aug 6",
+        "when": "Wed, Aug 6, 7 – 10 PM EDT"
+      },
+      "address": ["9:30 Club, 815 V St NW", "Washington, DC"],
+      "link": "https://www.insidenova.com/culpeper/events/?_evDiscoveryPath=/event/106612687n-the-church",
+      "event_location_map": {
+        "image": "https://www.google.com/maps/vt/data=rL7WhbwpBsp9kFysfTsBMxEtmS9NdtaWWLnxGJxrkOA_wOuD4xiqLVwW80t-EvY6wBjf0vV0zJ4AsoV4FL4srnUqQWoHOPk9mV9T9Pxwu9QXy2BxubE",
+        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89b7b7e4e228e9c5:0x3161fd12357c29b8?sa=X&ved=2ahUKEwjw5N7a7faOAxUWbvUHHcp6Ik0Q9eIBegQIExAA&hl=en&gl=us",
+        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89b7b7e4e228e9c5%3A0x3161fd12357c29b8&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Washington+DC+events&type=place"
+      },
+      "description": "JULY 10, 2023 (Melbourne, AU) – “Not in my wildest dreams did I expect all the love that has been thrown at this record by the audiences and the critics,” says STEVE KILBEY, the bassist, vocalist...",
+      "ticket_info": [
+        {
+          "source": "Axs.com",
+          "link": "https://www.axs.com/nz/events/902392/the-church-tickets",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Tixel.com",
+          "link": "https://tixel.com/us/music-tickets/2025/08/06/the-church-the-singles-1980-2025",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Premiumseatsusa.com",
+          "link": "https://www.premiumseatsusa.com/concerts/alternative/the-church/7047783",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Eventseeker.com",
+          "link": "https://eventseeker.com/tickets/t-2961681",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Stubhub.com",
+          "link": "https://www.stubhub.com/_C-34244?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-2296%7Cev-157597247%7Ccy-79613&ps_ev=157597247",
+          "link_type": "tickets"
+        }
+      ],
+      "venue": {
+        "name": "9:30 Club",
+        "rating": 4.6,
+        "reviews": 4583,
+        "link": "https://www.google.com/search?sca_esv=679a45043caa68e1&gl=us&hl=en&q=9:30+Club&ludocid=3558403435247970744&ibp=gwp%3B0,7"
+      },
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5xmoSx-gYwMRvNjQL2PJKNzqDvnYEgP12IOfEjx0&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGIXnXp1oQ6awOiJl5S8YuNrj2B_joR-QyxDe7ven8cg&s=10"
+    },
+    {
+      "title": "Bryson Tiller with Summer Walker",
+      "date": {
+        "start_date": "Aug 10",
+        "when": "Sun, Aug 10, 7 PM – Mon, Aug 11, 1 AM EDT"
+      },
+      "address": ["Nationals Park, 1500 South Capitol St SE", "Washington, DC"],
+      "link": "https://local.aarp.org/event/chris-brown-breezy-bowl-xx-2025-08-10-tm-washington-dc.html",
+      "event_location_map": {
+        "image": "https://www.google.com/maps/vt/data=FQy9KSyJ-TEW0eMRmFik1JbOUV4G0OvsnpIKlorXUjySr3Fyf7-Ci3PDiWT22iHzFtEEsK_Di_lE2oiLefNoIDNDc5OIG-tGCAIvt0vFKFVnIou-JKA",
+        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89b7b9d77863eb63:0x60faf9c5954e6d8b?sa=X&ved=2ahUKEwjw5N7a7faOAxUWbvUHHcp6Ik0Q9eIBegQIGxAA&hl=en&gl=us",
+        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89b7b9d77863eb63%3A0x60faf9c5954e6d8b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Washington+DC+events&type=place"
+      },
+      "description": "Attend the Chris Brown: Breezy Bowl XX event in Washington, DC at the Nationals Park, in Washington located at 1500 S Capitol St SE. The event starts at 7:00 P.M. on Sunday, Aug 10, 2025. We want...",
+      "ticket_info": [
+        {
+          "source": "Spotify.com",
+          "link": "https://open.spotify.com/concert/4XUskwc2kEgaNj7W2ALwsu",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Axs.com",
+          "link": "https://www.axs.com/nz/events/916242/chris-brown-tickets",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Bandsintown.com",
+          "link": "https://www.bandsintown.com/e/106659913?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Cambria Hotel Washington D.C. Navy Yard Riverfront",
+          "link": "https://www.cambriadcnavyyardriverfront.com/events/washington/chris-brown-with-summer-walker-and-bryson-tiller-10078656",
+          "link_type": "more info"
+        },
+        {
+          "source": "Events.org",
+          "link": "https://events.org/e/Chris-Brown-Breezy-Bowl-XX-5Q4A2SQP",
+          "link_type": "more info"
+        }
+      ],
+      "venue": {
+        "name": "Nationals Park",
+        "rating": 4.6,
+        "reviews": 13815,
+        "link": "https://www.google.com/search?sca_esv=679a45043caa68e1&gl=us&hl=en&q=Nationals+Park&ludocid=6988172398827564427&ibp=gwp%3B0,7"
+      },
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoz2CPyxk6XKy-ln0FpXTIxCXqO8RPTEZFnEPtokk7k4j5ACweUmDZtyQ&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqbMKWUpDLELp-h3juWlP21v_R_iWjhF33LExazsZfL7guV5o050n5F6kEbA&s=10"
+    },
+    {
+      "title": "Elsa y Elmar",
+      "date": {
+        "start_date": "Aug 10",
+        "when": "Sun, Aug 10, 6:30 – 8:00 PM EDT"
+      },
+      "address": ["The Atlantis, 2047 9th St NW", "Washington, DC"],
+      "link": "https://open.spotify.com/concert/1bjUgASeHcJJGXMN4l00Js",
+      "event_location_map": {
+        "image": "https://www.google.com/maps/vt/data=67oAf6COWkmVU1IqIDt2R92oV5WCtIjQxuqskZLAujNMT5hir8NtrxQEZuFPjptEU1aX4V8dGUkPokZNJTVPfi6XNdhlg6CwyaXs-WimoagxdSmWzNY",
+        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89b7b73479443f5f:0x7ec5e25b57342213?sa=X&ved=2ahUKEwjw5N7a7faOAxUWbvUHHcp6Ik0Q9eIBegQIIxAA&hl=en&gl=us",
+        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89b7b73479443f5f%3A0x7ec5e25b57342213&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Washington+DC+events&type=place"
+      },
+      "description": "Find tickets for Vale at The Atlantis in Washington on 8/10/2025 at 7:00 PM",
+      "ticket_info": [
+        {
+          "source": "Spotify.com",
+          "link": "https://open.spotify.com/concert/1bjUgASeHcJJGXMN4l00Js",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Axs.com",
+          "link": "https://www.axs.com/au/events/835966/elsa-y-elmar-tickets",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Bandsintown.com",
+          "link": "https://www.bandsintown.com/e/1034029522?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Vividseats.com",
+          "link": "https://www.vividseats.com/elsa-y-elmar-tickets-washington-the-atlantis-8-10-2025--concerts-latin-music/production/5491002",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Stubhub.com",
+          "link": "https://www.stubhub.com/_C-88598?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150029727%7Cev-155404555%7Ccy-7676&ps_ev=155404555",
+          "link_type": "tickets"
+        }
+      ],
+      "venue": {
+        "name": "The Atlantis",
+        "rating": 4.6,
+        "reviews": 246,
+        "link": "https://www.google.com/search?sca_esv=679a45043caa68e1&gl=us&hl=en&q=The+Atlantis&ludocid=9134956301123854867&ibp=gwp%3B0,7"
+      },
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRACG3z5wgMu1HHks7zGAdogUsol8bba1knl6XWb1m22XDNE1u8abKZPVI&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxthIrd6LaZtW8_3HeMNXtivbBKK6QQxvDxkP8CyRk27EbJLmfWtMN16XF1g&s=10"
+    },
+    {
+      "title": "Vandoliers",
+      "date": {
+        "start_date": "Aug 6",
+        "when": "Wed, Aug 6, 7 PM – Thu, Aug 7, 1 AM EDT"
+      },
+      "address": ["Pearl Street Warehouse, 33 Pearl St SW", "Washington, DC"],
+      "link": "https://app.opendate.io/e/vandoliers-nate-bergman-august-06-2025-590662",
+      "event_location_map": {
+        "image": "https://www.google.com/maps/vt/data=48ZJocjmyoLQa6CncTgiAh7aujy7ANON0bwydQGvLGmep0K8wvv77UKbrc_Now94BksY09eY_A4i3oICG6_RP46Jbzh1iGdTK1jTrmD0KS2j4wQ33J0",
+        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89b7b770cec0a6fb:0xbe43e2d9b8c48fc8?sa=X&ved=2ahUKEwjw5N7a7faOAxUWbvUHHcp6Ik0Q9eIBegQIKxAA&hl=en&gl=us",
+        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89b7b770cec0a6fb%3A0xbe43e2d9b8c48fc8&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Washington+DC+events&type=place"
+      },
+      "description": "August 06, 2025 Doors: 7:00 PM - Show: 8:00 PM Vandoliers + Nate Bergman",
+      "ticket_info": [
+        {
+          "source": "Spotify.com",
+          "link": "https://open.spotify.com/concert/7a88afzIo48r9gRigi7uUo",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Bandsintown.com",
+          "link": "https://www.bandsintown.com/e/106760360?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+          "link_type": "tickets"
+        },
+        {
+          "source": "InsideNoVa.com",
+          "link": "https://www.insidenova.com/local-events/?_evDiscoveryPath=/event/106760360n-vandoliers",
+          "link_type": "more info"
+        },
+        {
+          "source": "Northern Neck News",
+          "link": "https://www.newsontheneck.com/local-events/?_evDiscoveryPath=/event/1035804782n-nate-bergman",
+          "link_type": "more info"
+        },
+        {
+          "source": "Log in Log in to the Opendate app - Opendate",
+          "link": "https://app.opendate.io/e/vandoliers-nate-bergman-august-06-2025-590662",
+          "link_type": "more info"
+        }
+      ],
+      "venue": {
+        "name": "Pearl Street Warehouse",
+        "rating": 4.6,
+        "reviews": 707,
+        "link": "https://www.google.com/search?sca_esv=679a45043caa68e1&gl=us&hl=en&q=Pearl+Street+Warehouse&ludocid=13710051115381592008&ibp=gwp%3B0,7"
+      },
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZJ3ooPKlPzjFi0wXep-lzW_Ph8XlM1wSNagqZ9JI-_-ZEaz7EHeIh2ZA&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu6MEOb3rFakYFls6zNO3ZR1g_LmwPKiaM3S93InglqiwAE0xNeGKhYApB7Q&s=10"
+    },
+    {
+      "title": "Old Mervs",
+      "date": {
+        "start_date": "Aug 10",
+        "when": "Sun, Aug 10, 7 – 10 PM EDT"
+      },
+      "address": ["Songbyrd Music House, 540 Penn St NE", "Washington, DC"],
+      "link": "https://songbyrddc.com/event/old-mervs/",
+      "event_location_map": {
+        "image": "https://www.google.com/maps/vt/data=SDt7tZ4m_g24vZ6BjRjKE2SoNBt7RaV6zZZQ6syv-B298EfLmiF1JonyYhF-2gRmuidoxGuvWcXM5rCHU2IC16SGeGXEZIGYKjBF_VuRQT61475jK8E",
+        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89b7b7d98083aa37:0xa5f02c44e10268c2?sa=X&ved=2ahUKEwjw5N7a7faOAxUWbvUHHcp6Ik0Q9eIBegQIMxAA&hl=en&gl=us",
+        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89b7b7d98083aa37%3A0xa5f02c44e10268c2&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Washington+DC+events&type=place"
+      },
+      "description": "An unbreakable bond shared between lifelong mates, Dave and Henry hail from the tiny farming community of Kojonup, a town three hours south of Perth, Western Australia. Starting out as school...",
+      "ticket_info": [
+        {
+          "source": "Spotify.com",
+          "link": "https://open.spotify.com/concert/3YHrDxc5mZeWgOzekixL0V",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Axs.com",
+          "link": "https://www.axs.com/nz/events/1006804/old-mervs-tickets",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Dice.fm",
+          "link": "https://link.dice.fm/N99d7aac0c13",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Bandsintown.com",
+          "link": "https://www.bandsintown.com/e/1034853027?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Stubhub.com",
+          "link": "https://www.stubhub.com/_C-289607?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-27635%7Cev-157775656%7Ccy-8169&ps_ev=157775656",
+          "link_type": "tickets"
+        }
+      ],
+      "venue": {
+        "name": "Songbyrd Music House",
+        "rating": 4.5,
+        "reviews": 1055,
+        "link": "https://www.google.com/search?sca_esv=679a45043caa68e1&gl=us&hl=en&q=Songbyrd+Music+House&ludocid=11957105685013096642&ibp=gwp%3B0,7"
+      },
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn39n6S-kqQTVGNXxFrOGzqaTTWqO6mzBsaqJHUC4&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9806WZrDZmivcs9hlP8sph8AnUXnWyg2_X-QvEf8UqQ&s=10"
+    },
+    {
+      "title": "Bonnie Prince Billy",
+      "date": {
+        "start_date": "Aug 6",
+        "when": "Wed, Aug 6, 7 – 10 PM EDT"
+      },
+      "address": ["Miracle Theatre, 535 8th St SE", "Washington, DC"],
+      "link": "https://www.livenation.com/artist/K8vZ9171U6V/bonnie-prince-billy-events",
+      "event_location_map": {
+        "image": "https://www.google.com/maps/vt/data=OFnUaK8NPd6SHBniBvP7_qyZ75Vp1VmrpuWoIU6ztsSaaosNMpPSOp8r3LgKYtbNutvhFdaBl4AZAKG1cDxnrCU8K69OO-UlQ3pxaV4LHkkGQcVmJks",
+        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89b7b8332fc6eea3:0x9fcbf860427e0e49?sa=X&ved=2ahUKEwjw5N7a7faOAxUWbvUHHcp6Ik0Q9eIBegQIOxAA&hl=en&gl=us",
+        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89b7b8332fc6eea3%3A0x9fcbf860427e0e49&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Washington+DC+events&type=place"
+      },
+      "description": "Bonnie Prince Billy WED, Aug 6, 2025 @ 7:00 PM Miracle Theatre, Washington, DC",
+      "ticket_info": [
+        {
+          "source": "Spotify.com",
+          "link": "https://open.spotify.com/concert/4585DhJX5lXl57kVpSdz2i",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Festivaly.eu",
+          "link": "https://festivaly.eu/en/bonnie-prince-billy-miracle-theatre-dc-washington-dc-2025",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Bandsintown.com",
+          "link": "https://www.bandsintown.com/e/1035356892?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Ticketmaster.com",
+          "link": "https://www.ticketmaster.com/event/Z7r9jZ1A7pbP-",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Cambria Hotel Washington D.C. Navy Yard Riverfront",
+          "link": "https://www.cambriadcnavyyardriverfront.com/events/washington/bonnie-prince-billy-10160514",
+          "link_type": "more info"
+        }
+      ],
+      "venue": {
+        "name": "Miracle Theatre",
+        "rating": 4.6,
+        "reviews": 438,
+        "link": "https://www.google.com/search?sca_esv=679a45043caa68e1&gl=us&hl=en&q=Miracle+Theatre&ludocid=11514569964618911305&ibp=gwp%3B0,7"
+      },
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRDabDdin-BGqS0iIxGtXwAcaSih3fuzzY8VZN8F_ugedVn86fYbbkKU&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLfXb_alZqHdspyPMiFoDkTKlochSfnko68Vcda3pWnALD094wF--xYQZqA&s=10"
+    },
+    {
+      "title": "Tracy Lawrence",
+      "date": {
+        "start_date": "Aug 8",
+        "when": "Fri, Aug 8, 7 – 9 PM EDT"
+      },
+      "address": ["Capital One Hall, 7750 Capital One Tower Rd", "Tysons, VA"],
+      "link": "https://open.spotify.com/concert/1PDihdkAKyE1KLV93xUuGZ",
+      "event_location_map": {
+        "image": "https://www.google.com/maps/vt/data=OXLq-c--o-aHUQzlMrCUd2oNcNm5d6XO85NFaCt_E0IROOOmfVaQRt-3Lgg01v58Fssw8vPAaeu-l4v35LIddc6oRv5TFKl3ds-WB4yHDf1neG6f0sc",
+        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89b64b17c7277c05:0xc2d856b2847234c5?sa=X&ved=2ahUKEwjw5N7a7faOAxUWbvUHHcp6Ik0Q9eIBegQIQxAA&hl=en&gl=us",
+        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89b64b17c7277c05%3A0xc2d856b2847234c5&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Washington+DC+events&type=place"
+      },
+      "description": "Find tickets for Tracy Lawrence at Capital One Hall in Tysons on 8/8/2025 at 7:30 PM",
+      "ticket_info": [
+        {
+          "source": "Spotify.com",
+          "link": "https://open.spotify.com/concert/1PDihdkAKyE1KLV93xUuGZ",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Axs.com",
+          "link": "https://www.axs.com/nz/events/783096/tracy-lawrence-tickets",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Tixel.com",
+          "link": "https://tixel.com/us/music-tickets/2025/08/08/tracy-lawrence",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Tix4cause.com",
+          "link": "https://chicago.tix4cause.com/event/tracy-lawrence/6861982",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Bandsintown.com",
+          "link": "https://www.bandsintown.com/e/106203683?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+          "link_type": "tickets"
+        }
+      ],
+      "venue": {
+        "name": "Capital One Hall",
+        "rating": 4.6,
+        "reviews": 899,
+        "link": "https://www.google.com/search?sca_esv=679a45043caa68e1&gl=us&hl=en&q=Capital+One+Hall&ludocid=14040067163053765829&ibp=gwp%3B0,7"
+      },
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ6QIHP0A-W5JOlHp1X7Ipp1pTOJAqfHa62sv_C25cMOU12TTPLruHBaE&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxNhdOmWwki9ppTL0idEZyzT2MXm-o-Z8HswDHPc8LNCJCRrLpFR5H48QIRA&s=10"
+    },
+    {
+      "title": "Ballimaaraan",
+      "date": {
+        "start_date": "Aug 10",
+        "when": "Sun, Aug 10, 5:00 – 6:30 PM EDT"
+      },
+      "address": ["Lisner Auditorium, 730 21st St NW", "Washington, DC"],
+      "link": "https://open.spotify.com/concert/6aXSvsvrARHcmk5IaBCXe8",
+      "event_location_map": {
+        "image": "https://www.google.com/maps/vt/data=cVp38JSu5f8syXb-djvf-5H79wrH3lA4EgCptyMmrKhgu8E4PZdqN37JVYuaiZaMDgv177BHhJvW2SSdt2cwxWIRnr3LbT2OC3TFnhNEYwv05yMV6Ng",
+        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89b7b7b05a84609b:0xef83de98fb96d615?sa=X&ved=2ahUKEwjw5N7a7faOAxUWbvUHHcp6Ik0Q9eIBegQISxAA&hl=en&gl=us",
+        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89b7b7b05a84609b%3A0xef83de98fb96d615&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Washington+DC+events&type=place"
+      },
+      "description": "Find tickets for Piyush Mishra at Lisner Auditorium in Washington on 8/10/2025 at 6:00 PM",
+      "ticket_info": [
+        {
+          "source": "Spotify.com",
+          "link": "https://open.spotify.com/concert/6aXSvsvrARHcmk5IaBCXe8",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Axs.com",
+          "link": "https://www.axs.com/nz/events/1030189/piyush-mishra-tickets",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Eventbrite.com",
+          "link": "https://www.eventbrite.com/e/1517485964369",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Ticketmaster.com",
+          "link": "https://www.ticketmaster.com/udankhatola-blallimaaraan-by-piyush-mishra-washington-district-of-columbia-08-10-2025/event/150062D2B15D40AC",
+          "link_type": "tickets"
+        },
+        {
+          "source": "Bandsintown.com",
+          "link": "https://www.bandsintown.com/e/106956844?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+          "link_type": "tickets"
+        }
+      ],
+      "venue": {
+        "name": "Lisner Auditorium",
+        "rating": 4.4,
+        "reviews": 370,
+        "link": "https://www.google.com/search?sca_esv=679a45043caa68e1&gl=us&hl=en&q=Lisner+Auditorium&ludocid=17258882945651234325&ibp=gwp%3B0,7"
+      },
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-n2IRL6FFq5o_NN_vKUQs4zH_2fRsWx73vmDYJX4y-eoJPVGaR9QXzzY&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe2HnA8o8ivzi58p_sP46fp2XkDkIqnTCBAPXUbFdwPPq6bwl6hL5MqH9rfg&s=10"
+    }
+  ]
+}

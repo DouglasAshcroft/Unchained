@@ -2,10 +2,11 @@ import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./styles/global.css";
 import Navbar from "./components/Navbar";
-import TicketViewCard from './components/TicketViewCard'
+import TicketViewCard from "./components/TicketViewCard";
 import JoinTheResistance from "./components/JoinTheResistance";
 import EventsSection from "./components/EventsSection";
 import Home from "./pages/Home";
+import VenueDetail from "./pages/VenueDetail";
 
 function App() {
   const [showCTAOnly] = useState(false); // toggle this for dev/test/demo
@@ -16,13 +17,15 @@ function App() {
 
   return (
     <>
-
+      <Navbar />
+      <Home />
+      <EventsSection />
       <Routes>
-        <Navbar />
-        <Home />
+        <Route path="/" element={<Home />} />
         <Route path="/TicketViewCard" element={<TicketViewCard />} />
+        <Route path="/venues/:slug" element={<VenueDetail />} />
       </Routes>
-</>
+    </>
   );
 }
 

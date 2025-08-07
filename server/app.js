@@ -10,6 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 const events = JSON.parse(fs.readFileSync("events.JSON"));
+const googleEvents = JSON.parse(fs.readFileSync("googleEvents.JSON"));
 
 app.get("/", (req, res) => {
   res.send("This is not the endpoint you're looking for");
@@ -28,6 +29,25 @@ app.get("/events", (req, res) => {
 });
 app.get("/events/:Id", (req, res) =>
   res.send(events.find((events) => events.Id === +req.params.eventsId))
+);
+
+app.get("/googleEvents", (req, res) => {
+  const searchQuery = decodeURIComponent(req.query.search);
+  if (searchQuery !== "undefined") {
+    const filteredGoogleEvents = googleEvents.filter((googleEvents) =>
+      googleEvents.title.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+    res.json(filteredGoogleEvents);
+  } else {
+    res.json(googleEvents);
+  }
+});
+app.get("/googleEvents/:Id", (req, res) =>
+  res.send(
+    googleEvents.find(
+      (googleEvents) => googleEvents.Id === +req.params.eventsId
+    )
+  )
 );
 
 // UNCOMMENT CODE BELOW FOR STRETCH GOALS

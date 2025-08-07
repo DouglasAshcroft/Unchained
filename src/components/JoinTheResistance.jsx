@@ -1,7 +1,7 @@
 // src/components/JoinTheResistance.jsx
 
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { storeEmail } from "../utils/emailStorage";
 import "../styles/components/joinTheResistance.css";
 import "../styles/components/waitlistform.css";
@@ -42,14 +42,8 @@ const JoinTheResistance = () => {
           <p>
             Connect directly with fan base, build your following, reward
             loyalty, protect your IP, royalties, and{" "}
-            <Link
-              to={{ pathname: "https://www.base.org/ecosystem/" }}
-              target="blank"
-            >
-              {" "}
-              @Base{" "}
-            </Link>{" "}
-            from excessive fees.
+            {/* href="https://www.base.org/ecosystem/" target="blank">  */}
+            @Base from excessive fees.
           </p>
         </div>
         <div className="card">
