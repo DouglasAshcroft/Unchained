@@ -17,9 +17,10 @@ import EventsSection from "./EventsSection";
 const JoinTheResistance = () => {
 
 
-  const navigate = useNavigate("");
+  const artistNavigate = useNavigate("/Home/Artists");
+  const venuesNavigate = useNavigate("/Home/Venues");
+  const fansNavigate = useNavigate("/Home/Fans");
 
-  navigate("/Home/Events")
 
   const [showCTAOnly] = useState(true);
 
@@ -36,15 +37,15 @@ const JoinTheResistance = () => {
       </header>
 
       <div className="audience-cards">
-        <button onClick={() => navigate("/Home/Events")}>
+        <button onClick={() => artistNavigate("/Home/Artists")}>
           <ArtistsCard />
         </button>
 
-        <button onClick={() => showCTAOnly(false)}>
+        <button onClick={() => venuesNavigate("/Home/Venues")}>
           <VenuesCard />
         </button>
 
-        <button onClick={() => showCTAOnly(false)}>
+        <button onClick={() => fansNavigate("/Home/Fans")}>
           <FansCard />
         </button>
       </div>
