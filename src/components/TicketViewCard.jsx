@@ -1,30 +1,21 @@
-import { useContext } from 'react';
-import { useParams, Link } from 'react-router-dom'
-import { APIContext } from "./ApiFetch";
+import { useState, useEffect } from "react";
+import { useParams, Link } from "react-router-dom";
 
 export default function TicketViewCard() {
+  const [ticketData, setTicketData] = useState(null);
 
-    const { events } = useContext(APIContext);
+  let { id } = useParams();
 
-    return (
-        <>
-            {/* {events.map((event) => {
-                <>
-                    <h1>{event.title}</h1> <br />
-                    <h3>Start Date: {event.date.start_date}</h3>
-                </>
-            })} */}
+  if (!ticketData) return <div>↺ Loading...</div>;
 
+  useEffect(() => {
+    fetch("http://localhost:3001/events")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        setTicketData(data);
+      });
+  }, [id]);
 
-            <div>
-                    <div key={index} className="event-card">
-                        <img src={events.thumbnail || events.image} alt={events.title} />
-                        <h2>{events.title}</h2>
-                        <p>{events.date.when}</p>
-                    </div>
-            </div>
-
-        </>
-    )
+  return <></>;
 }
-
