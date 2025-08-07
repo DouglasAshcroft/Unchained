@@ -14,7 +14,7 @@
 **Then** they should see a bold headline communicating the mission
 **And** a short paragraph or bullet list explaining how blockchain/NFTs will be used to stop scalping and reward fans -->
 
----
+<!-- ---
 
 ## ✅ User Story 2a: View Live Events from API
 
@@ -31,9 +31,9 @@
 **And** each card should include event name, date, venue, and image
 **And** the layout should be mobile responsive
 
----
+--- -->
 
-## ✅ User Story 2b: Handle Empty or Failed API State
+<!-- ## ✅ User Story 2b: Handle Empty or Failed API State
 
 **As a** user
 **I want to** see a friendly message if no events are available
@@ -47,7 +47,7 @@
 **Then** a message like “No events available right now” is shown
 **And** no broken or empty cards are displayed
 
----
+--- -->
 
 <!-- ## ✅ User Story 3: Email Collection (LocalStorage)
 
@@ -115,7 +115,6 @@
 
 ### Scaffold app layout and homepage route
 
-<!--
 - **Milestone**: Milestone 1: Smoke Test Landing Page
 - **Task Type**: Development
 - **Owner**: Solo Dev
@@ -133,13 +132,12 @@
 **When** I begin work on "Scaffold app layout and homepage route"
 **Then** I should complete the task as described in the GitHub issue
 **And** it should meet the associated design or product milestone requirements
- -->
 
----
+<!-- ---
 
 ### Implement Hero section with mission message
 
-<!--
+
 - **Milestone**: Milestone 1: Smoke Test Landing Page
 - **Task Type**: Development
 - **Owner**: Solo Dev
@@ -157,9 +155,9 @@
 **When** I begin work on "Implement Hero section with mission message"
 **Then** I should complete the task as described in the GitHub issue
 **And** it should meet the associated design or product milestone requirements
- -->
 
----
+
+--- -->
 
 <!--
 ### Finalize resistance-themed font pairing
@@ -182,7 +180,7 @@
 **Then** I should complete the task as described in the GitHub issue
 **And** it should meet the associated design or product milestone requirements -->
 
----
+<!-- ---
 
 ### Fetch real-time events from ticketing API (mock first)
 
@@ -203,7 +201,7 @@
 **Then** I should complete the task as described in the GitHub issue
 **And** it should meet the associated design or product milestone requirements
 
----
+--- -->
 
 <!--
 ### Display Event Cards in mobile-first layout
@@ -315,7 +313,7 @@
 **Then** I should complete the task as described in the GitHub issue
 **And** it should meet the associated design or product milestone requirements
 
----
+<!-- ---
 
 ### Handle failed API fetch with user-friendly fallback
 
@@ -336,7 +334,7 @@
 **Then** I should complete the task as described in the GitHub issue
 **And** it should meet the associated design or product milestone requirements
 
----
+--- -->
 
 <!--
 ### Ensure mobile-first responsiveness
@@ -382,7 +380,7 @@
 **And** it should meet the associated design or product milestone requirements
  -->
 
----
+<!-- ---
 
 ### Animate JoinTheResistance entrance
 
@@ -404,7 +402,7 @@
 **Then** I should complete the task as described in the GitHub issue
 **And** it should meet the associated design or product milestone requirements
 
----
+--- -->
 
 ### Add 'Return to Safety' button
 
