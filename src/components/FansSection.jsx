@@ -1,10 +1,26 @@
 import "../styles/components/joinTheResistance.css";
-import Navbar from "./Navbar";
+
+import UpComingEvents from "./FanSectionComponents/UpComingEvents";
+import TrophyCollection from "./FanSectionComponents/TrophyCollection";
+import FanFavs from "./FanSectionComponents/FanFavs";
+
 
 function FansSection() {
+
+
   return (
     <div>
-      <h1>Fans</h1>
+      <header>
+        <h1>Fans</h1>
+      </header>
+
+      <main>
+        <FanFavs />      
+
+        <TrophyCollection />
+
+        <UpComingEvents />
+      </main>
     </div>
   );
 }
