@@ -7,4 +7,52 @@
   --color-primary: #4fff4b;
   --color-primary-dark: #28cc28;
   --color-border: #333;
+  --ink: #eae6da; /* off‑white ink */
+  --bg-0: #0b0c0e; /* near‑black */
+  --bg-1: #14161a; /* panel */
+  --accent-red: #e04545; /* resistance red */
+  --accent-teal: #5ab0a9; /* links */
+  --accent-neon: #c4ff00; /* rare pulse */
+  --border: #2a2e33;
+  --shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  --dur: 160ms;
+  --ease: cubic-bezier(0.17, 0.67, 0.24, 0.99);
+}
+
+/* subtle grain texture util (apply to nav/panels) */
+.u-noise {
+  background-image: radial-gradient(
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px
+    ),
+    radial-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 2px 2px, 3px 3px;
+  background-position: 0 0, 1px 1px;
+}
+
+/* torn edge util (bottom edge) */
+.u-torn-edge {
+  position: relative;
+}
+.u-torn-edge::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 10px;
+  background: radial-gradient(8px 8px at 8px 4px, transparent 55%, #000 56%),
+    radial-gradient(8px 8px at 24px 6px, transparent 55%, #000 56%),
+    radial-gradient(8px 8px at 40px 4px, transparent 55%, #000 56%),
+    linear-gradient(#000, #000);
+  background-size: 32px 10px, 32px 10px, 32px 10px, 100% 10px;
+  background-repeat: repeat-x;
+  filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.6));
+}
+
+/* visible focus util (stencil ring) */
+.u-stencil-ring:focus-visible {
+  outline: 3px solid var(--accent-neon);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px #000 inset;
 }

@@ -7,3 +7,177 @@ nav {
   gap: var(--space-md);
   padding: var(--space-sm) 0;
 }
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.6rem 0.9rem;
+  background: var(--bg-1);
+  color: var(--ink);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+.navbar.u-noise {
+  /* optional texture */
+  backdrop-filter: blur(6px);
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-heading, "Special Elite", monospace);
+  font-size: 1.25rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  transition: transform var(--dur) var(--ease);
+}
+.navbar__brand:hover {
+  transform: translateY(-1px);
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.25rem;
+  flex: 1 1 auto;
+}
+.navlink {
+  appearance: none;
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--ink);
+  text-decoration: none;
+  padding: 0.45rem 0.7rem;
+  border-radius: 6px;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  font-family: var(--font-heading, "Special Elite", monospace);
+  transition: background var(--dur) var(--ease),
+    border-color var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+.navlink:hover {
+  border-color: var(--border);
+  background: rgba(255, 255, 255, 0.03);
+}
+.navlink:focus-visible {
+  outline: 2px solid var(--accent-teal);
+  outline-offset: 2px;
+}
+.navlink--active {
+  background: var(--accent-red);
+  color: #0b0c0e;
+  border-color: transparent;
+}
+.navlink[aria-disabled="true"] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* right side search area */
+.navbar__search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* ===========================
+   SEARCH INPUT + OVERLAY
+   =========================== */
+.search-input {
+  width: 18rem;
+  max-width: 56vw;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--ink);
+  padding: 0.5rem 0.75rem 0.5rem 2.2rem; /* room for icon */
+  border-radius: 8px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.01em;
+  transition: border-color var(--dur) var(--ease),
+    box-shadow var(--dur) var(--ease);
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23EAE6DA" viewBox="0 0 24 24"><path d="M10 4a6 6 0 104.472 10.06l4.734 4.734 1.414-1.414-4.734-4.734A6 6 0 0010 4zm0 2a4 4 0 110 8 4 4 0 010-8z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: 0.6rem center;
+}
+.search-input::placeholder {
+  color: #9aa0a6;
+  opacity: 0.9;
+}
+.search-input:focus {
+  border-color: var(--accent-teal);
+  box-shadow: 0 0 0 2px rgba(90, 176, 169, 0.25);
+}
+
+.search-overlay-backdrop {
+  position: fixed;
+  inset: 3.1rem 0 0 0; /* just below sticky nav */
+  background: rgba(10, 11, 14, 0.65);
+  backdrop-filter: blur(2px);
+  z-index: 35;
+  display: none;
+}
+.search-overlay-backdrop.is-open {
+  display: block;
+}
+
+.search-overlay-panel {
+  position: fixed;
+  top: 3.1rem;
+  left: 0;
+  right: 0;
+  background: #0e1013;
+  border-top: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  z-index: 45;
+  display: none;
+}
+.search-overlay-panel.is-open {
+  display: block;
+  animation: panelSlide var(--dur) var(--ease);
+}
+
+@keyframes panelSlide {
+  from {
+    transform: translateY(-8px);
+    opacity: 0.6;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.search-list {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.5rem 0.75rem 1rem;
+}
+.search-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.55rem 0.6rem;
+  border-radius: 8px;
+  color: var(--ink);
+}
+.search-row:hover,
+.search-row--active {
+  background: rgba(255, 255, 255, 0.04);
+}
+.pill {
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--accent-teal);
+}
