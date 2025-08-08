@@ -5,15 +5,17 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import App from "./App.jsx";
 import APIProvider from "./components/ApiFetch.jsx";
+import { SearchProvider } from "./context/SearchContext";
 import "./styles/index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <APIProvider>
-      <Router>
-        <App />
-      </Router>
+      <SearchProvider>
+        <Router>
+          <App />
+        </Router>
+      </SearchProvider>
     </APIProvider>
   </StrictMode>
-
 );

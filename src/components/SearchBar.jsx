@@ -1,51 +1,91 @@
-import React from "react";
-import { useState } from "react";
-import { useNavigate } from "react-router";
+// src/components/SearchBar.jsx
+import { useState, useContext } from "react";
+import { SearchContext } from "../context/SearchContext";
 
-function SearchBar(/*function*/) {
-  // const [searchQuery, setSearchQuery] = useState('');
-  // const [searchResults, setSearchResults] = useState([]);
-
-  const [inputVal, setInputVal] = useState();
-  const [searchVal, setSearchVal] = useState();
-
-  let navigate = useNavigate();
-
-  const handleClick = () => {
-    setSearchVal(inputVal);
-  };
+function SearchBar() {
+  const { results, search } = useContext(SearchContext);
+  const [query, setQuery] = useState("");
 
   const handleChange = (e) => {
-    setInputVal(e.target.value);
-    if (inputVal.trim().length < 3) {
-      setSearchVal([]);
-      return;
-    }
+    setQuery(e.target.value);
+    search(e.target.value);
   };
 
   return (
-    <div>
-      <label htmlFor="site-search">Search: </label>
+    <div className="search-wrapper">
       <input
-        onChange={handleChange}
+        className="search-input u-stencil-ring"
         type="search"
-        name="search-bar"
-        id="search-bar"
-        placeholder="Search events"
+        type="text"
+        value={query}
+        onChange={handleChange}
+        placeholder="Search events, venues, artists..."
       />
-      <button
-        onClick={() => {
-          handleClick();
-          navigate("/home");
-        }}
-      >
-        Go!
-      </button>
+
+      {results.length > 0 && (
+        <div className="search-results">
+          {results.map((item, idx) => (
+            <div key={idx} className="search-result">
+              {item.type === "event" && (
+                <>
+                  <strong>{item.title}</strong>
+                  <span> @ {item.venue}</span>
+                </>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
 
 export default SearchBar;
+
+// import React from "react";
+// import { useNavigate } from "react-router";
+// import { useContext } from "react";
+// import APIContext from "./ApiFetch";
+
+// const SearchBar = () => {
+//   const { inputVal, setInputVal } = useContext(APIContext);
+
+//   let navigate = useNavigate();
+
+//   const handleClick = () => {
+//     setSearchVal(inputVal);
+//     setInputVal("");
+//   };
+
+//   const handleChange = (e) => {
+//     setInputVal(e.target.value);
+//     if (inputVal.trim().length < 3) {
+//       setSearchVal([]);
+//       return;
+//     }
+//   };
+
+//   return (
+//     <div>
+//       <label htmlFor="site-search">Search: </label>
+//       <input
+//         onChange={handleChange}
+//         type="search"
+//         name="search-bar"
+//         id="search-bar"
+//         placeholder="Search events"
+//       />
+//       <button
+//         onClick={() => {
+//           handleClick();
+//           navigate("/home");
+//         }}
+//       >
+//         Go!
+//       </button>
+//     </div>
+//   );
+// };
 
 // const handleSearchChange = async (e) => {
 //   const query = e.target.value;

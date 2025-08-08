@@ -2,32 +2,23 @@
 
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
-
 import "../styles/components/joinTheResistance.css";
-import "../styles/components/waitlistform.css";
-
 import ArtistsCard from "../components/ArtistsCard";
 import VenuesCard from "./VenuesCard";
 import FansCard from "./FansCard";
 import HandleEmail from "./HandleEmail";
 import EventsSection from "./EventsSection";
 
-
 const JoinTheResistance = () => {
-
-
   const artistNavigate = useNavigate("/Home/Artists");
   const venuesNavigate = useNavigate("/Home/Venues");
   const fansNavigate = useNavigate("/Home/Fans");
-
 
   const [showCTAOnly] = useState(true);
 
   if (showCTAOnly === false) {
     return <EventsSection />;
   }
-
 
   return (
     <section className="join-the-resistance">
@@ -52,7 +43,6 @@ const JoinTheResistance = () => {
       <div>
         <HandleEmail />
       </div>
-
     </section>
   );
 };

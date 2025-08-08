@@ -8,6 +8,7 @@
 Dependencies:
 npm install react-router-dom@latest
 npm install serpapi <!-- npm<Google Event API handler 200 calls per month> -->
+npm install fuse.js <!-- Handles searchBar matching and fuzzy search results -->
 
 File structure:
 
