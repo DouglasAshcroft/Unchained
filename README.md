@@ -9,7 +9,6 @@ Dependencies:
 npm install react-router-dom@latest
 npm install serpapi <!-- npm<Google Event API handler 200 calls per month> -->
 npm install fuse.js <!-- Handles searchBar matching and fuzzy search results -->
-
 File structure:
 
 src/
@@ -24,7 +23,7 @@ src/
 │ │ ├── \_typography.css # Global font styles, headings, paragraphs
 │ │ └── \_globals.css # General layout rules, box-sizing, links, lists
 │ │
-│ ├── tokens/
+│ ├── tokens/ <!-- Tokens are a future goal after intergrating NFT minting -->
 │ │ ├── \_colors.css # Central color palette (brand, neutrals, etc.)
 │ │ ├── \_spacing.css # Margin, padding, spacing utilities
 │ │ └── \_typescale.css # Font sizes, line heights, font weights

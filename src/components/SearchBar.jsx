@@ -1,46 +1,74 @@
 // src/components/SearchBar.jsx
-import { useState, useContext } from "react";
-import { SearchContext } from "../context/SearchContext";
 
-function SearchBar() {
-  const { results, search } = useContext(SearchContext);
-  const [query, setQuery] = useState("");
+import { useSearch } from "../context/SearchContext";
 
-  const handleChange = (e) => {
-    setQuery(e.target.value);
-    search(e.target.value);
-  };
+export default function SearchBar() {
+  const { query, setQuery, setOpen } = useSearch();
 
   return (
-    <div className="search-wrapper">
+    <form role="search" onSubmit={(e) => e.preventDefault()}>
       <input
-        className="search-input u-stencil-ring"
+        className="search-input"
         type="search"
-        type="text"
+        placeholder="Search venues, artists, events…"
         value={query}
-        onChange={handleChange}
-        placeholder="Search events, venues, artists..."
+        onChange={(e) => {
+          const q = e.target.value;
+          setQuery(q);
+          setOpen(!!q.trim());
+        }}
+        onFocus={() => query.trim() && setOpen(true)}
+        autoComplete="off"
+        aria-controls="search-results"
+        aria-expanded="true"
       />
-
-      {results.length > 0 && (
-        <div className="search-results">
-          {results.map((item, idx) => (
-            <div key={idx} className="search-result">
-              {item.type === "event" && (
-                <>
-                  <strong>{item.title}</strong>
-                  <span> @ {item.venue}</span>
-                </>
-              )}
-            </div>
-          ))}
-        </div>
-      )}
-    </div>
+    </form>
   );
 }
 
-export default SearchBar;
+//restore here
+// import { useState, useContext } from "react";
+// import { SearchContext } from "../context/SearchContext";
+// import { SearchResultsOverlay } from "./SearchResultsOverlay.jsx";
+
+// function SearchBar() {
+//   const { results, search } = useContext(SearchContext);
+//   const [query, setQuery] = useState("");
+
+//   const handleChange = (e) => {
+//     setQuery(e.target.value);
+//     search(e.target.value);
+//   };
+
+//   return (
+//     <div className="search-wrapper">
+//       <input
+//         className="search-input u-stencil-ring"
+//         type="search"
+//         value={query}
+//         onChange={handleChange}
+//         placeholder="Search events, venues, artists..."
+//       />
+
+//       {results.length > 0 && (
+//         <div className="search-results">
+//           {results.map((item, idx) => (
+//             <div key={idx} className="search-result">
+//               {item.type === "event" && (
+//                 <>
+//                   <strong>{item.title}</strong>
+//                   <span> @ {item.venue}</span>
+//                 </>
+//               )}
+//             </div>
+//           ))}
+//         </div>
+//       )}
+//     </div>
+//   );
+// }
+
+// export default SearchBar;
 
 // import React from "react";
 // import { useNavigate } from "react-router";
