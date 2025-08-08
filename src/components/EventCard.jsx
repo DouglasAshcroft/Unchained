@@ -1,5 +1,5 @@
 import { APIContext } from "./ApiFetch";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { slugify } from "../utils/slugify";
@@ -11,7 +11,7 @@ import "../styles/components/eventsSection.css";
 
 export default function EventCard() {
     const { events } = useContext(APIContext);
-    const ticketViewNavigate = useNavigate("/Home/Events/TicketView");
+    const navigate = useNavigate({});
 
 
     return (
@@ -20,17 +20,10 @@ export default function EventCard() {
             {events.map((event, index) => (
                 <div key={index} className="event-card">
                     <img src={event.thumbnail || event.image} alt={event.title} />
-                    <h2>{event.title}</h2>
+                    <h2>{ event.title}</h2>
                     <p>{event.date.when}</p>
                     <div className="event-venue-row">
-                        <p>
-                            <a
-                                href={`/venues/${slugify(event.venue.name)}`}
-                                className="venue-internal-link"
-                            >
-                                {event.venue?.name}
-                            </a>
-                        </p>
+                        <p>{event.venue?.name}</p>
                         <div className="maps-link-wrapper">
                             <button
                                 onClick={() => openGoogleMaps(event.event_location_map.link)}
@@ -61,7 +54,7 @@ export default function EventCard() {
                         </a>
 
                         <button
-                            onClick={() => ticketViewNavigate('/Home/Events/TicketView')}
+                            onClick={() =>  navigate(`/Home/Events/TicketView/${event.title}`)}
                             className="mint-ticket-button"
                         >
                             Purchase NFT Ticket

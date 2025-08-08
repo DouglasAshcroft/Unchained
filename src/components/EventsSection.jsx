@@ -1,20 +1,15 @@
 // src/components/EventsSection.jsx
 import { Link } from "react-router-dom";
-import "../styles/components/eventsSection.css";
-import EventCard from "./EventCard";
-import Navbar from "./Navbar";
-import SearchBar from "./SearchBar";
 import { useContext } from "react";
 import { APIContext } from "./ApiFetch";
+import "../styles/components/eventsSection.css";
+
+import EventCard from "./EventCard";
+
 
 const EventsSection = () => {
-  const { events, inputVal } = useContext(APIContext);
-  console.log(events);
+  const { events } = useContext(APIContext);
 
-  const filteredSearch = events.filter((event) => {
-    event.title.toLowerCase().includes(inputVal);
-  });
-  console.log(filteredSearch);
 
   return (
     <section>
